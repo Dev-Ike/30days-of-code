@@ -45,6 +45,13 @@ nav .circle {
   border-radius: 50%;
   border: 8px solid #fff;
   box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
+  animation: round 3s linear infinite;
+}
+
+@keyframes round {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .music-player h1 {
